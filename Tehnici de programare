@@ -1,0 +1,72 @@
+Tema 1
+
+Tehnica „divide et impera”
+
+Enunt Problema:
+
+  Romeo și Julieta se află într-un labirint memorat ca o matrice în care culoarele sunt notate
+cu 0, iar zidurile cu 1. Să se verifice dacă Romeo poate ajunge la Julieta, știind că el se poate
+deplasa doar în sus, jos, stănga și dreapta.
+Date de intrare: fișierul date.in conține
+-pe prima linie doua numere naturale, m și n;
+-pe a doua linie două numere naturale, LR și CR, reprezentând linia și coloana din labirint pe care
+se află Romeo;
+-pe a treia linie două numere naturale, LJ și CJ, reprezentând linia și coloana din labirint pe care
+se află Julieta;
+-pe următoarele m linii elementele unei matrice cu m linni și n coloane, cu semnificația din enunț;
+Date de ieșire: fișierul date.out conține
+-mesajul „DA”, dacă răspunsul este afirmativ, sau mesajul „NU” în caz contrat;
+Liniile și coloanele matricei sunt numerotate începând cu 1.
+
+Exemplu:
+ ---------------------------------
+ | date.in         |   date.out  |
+ ---------------------------------
+ | 6 7             | NU          |
+ | 3 1             |             |
+ | 5 5             |             |
+ | 0 1 0 0 1 0 0   |             |
+ | 0 1 0 0 1 0 0   |             |
+ | „0” 0 1 1 1 0 0 |             |
+ | 0 0 1 0 1 0 0   |             |
+ | 0 1 0 1 „0” 1 0 |             |
+ | 0 1 0 0 1 0 0   |             |
+ ---------------------------------
+ 
+ 
+ Tema 2
+ 
+ Tehica „backtracking”
+ 
+ Enunt Problema:
+ 
+  Un labirint este codificat ca o matrice cu m linii și n coloane, în care se notează cu 0
+ culoarele și cu -1 zidurile. Romeo se află în zona (l0,c0). Să se găsească toate posibilitățile sale
+ de a ajunge la Julieta, aflată în zona (l1,c1).
+ Date de intrare: fișierul date.in conține
+ -pe prima linie numerele m și n, în această ordine cu semnificația din enunț;
+ -pe următoarele M linii, matricea care memorează configurația labirintului;
+ -pe ultima linie numerele naturale l0, c0, l1,c1, în această ordine, cu semnificația din enunț;
+ Date de ieșire: fișierul date.out conține
+ -soluțiile, separate prin câte o linie goală;
+  O soluție este o matrice în care se codifică cu 0 culoarele prin care nu s-a trecut, 
+ cu -1 zidurile și se marchează traseul cu numărul de ordine al pașilor urmati.
+ Restricții și precizări:
+ 
+ n, m ∈ [2,100]
+ 1 ≤ l0, l1 ≤ m
+ 1 ≤ c0 ,c1 ≤ n
+ 
+ Tema 3 
+ 
+ Tehnica „Greedy”
+ 
+ Enunt Problema
+ 
+ Restricții și precizări:
+ ∈
+ 
+ 
+ 
+ 
+
