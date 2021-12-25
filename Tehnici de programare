@@ -1,8 +1,8 @@
 Tema 1
 
-Tehnica „divide et impera”
+Tehnica „Divide et Impera”
 
-Enunt Problema:
+Enunț Problemă:
 
   Romeo și Julieta se află într-un labirint memorat ca o matrice în care culoarele sunt notate
 cu 0, iar zidurile cu 1. Să se verifice dacă Romeo poate ajunge la Julieta, știind că el se poate
@@ -36,9 +36,9 @@ Exemplu:
  
  Tema 2
  
- Tehica „backtracking”
+ Tehica „Backtracking”
  
- Enunt Problema:
+ Enunt Problemă:
  
   Un labirint este codificat ca o matrice cu m linii și n coloane, în care se notează cu 0
  culoarele și cu -1 zidurile. Romeo se află în zona (l0,c0). Să se găsească toate posibilitățile sale
@@ -61,12 +61,46 @@ Exemplu:
  
  Tehnica „Greedy”
  
- Enunt Problema
+ Enunt Problemă:
  
+ Se dau N intervale închise și se cere reuniunea acestora.
+ Date de intrare:
+ Fișierul date.in conține:
+ -pe prima linie un număr natural N, cu semnificația din enunț;
+ -pe următoarele N linii perechi de numere naturale de forma x y, unde unde x și y reprezintă 
+ capetele unui interval închis [x,y].
+ Date de ieșire:
+ Fișierul date.out conține:
+ -capetele intervalelor rezultate prin reuniune, câte o pereche pe rând; 
+ -numerele de pe același rând sunt separate prin câte un spațiu
  Restricții și precizări:
- ∈
+ -N∈[2,102]
+ Pentru fiecare interval  x,y∈[1,109], x<=y
+ 
+ Exemplu:
+---------------------
+| date.in | date.out|
+| 6       |         |
+| 80 85   | 1 7     |
+| 3 7     | 25 70   |
+| 50 70   | 80 85   |
+| 83 84   |         |
+| 1 52    |         |
+| 5 50    |         |
+---------------------
+ 
+ Tema 4 
+ 
+ Tehnica „Programare dinamică”
  
  
+ Enunț Problemă:
  
+  Se consideră o clădire de formă dreptunghiulară formată din n*m camere,dispuse pe n linii
+ și m coloane. Intrarea în clădire este în camera de coordonate (1,1), iar ieșirea în camera de
+ coordonate (n,m). Din orice cameră (i,j) se poate ajunge numai în camerele (i+1,j) sau (i,j+1).
+ Determinați în câte moduri se poate ajunge din camera (1,1) în camera (n,m).
+  Deoarece numărul de posibilități poate fi mai mare, se cere doar restul acestui număr la 
+ împărțirea cu 9901.
  
 
